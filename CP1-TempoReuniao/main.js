@@ -4,8 +4,6 @@ function calcular() {
             let finalHora = parseInt(document.getElementById("finalHora").value)
             let finalMin = parseInt(document.getElementById("finalMin").value)
 
-            let divResult = document.getElementById("result")
-
             if (isNaN(inicHora) || isNaN(inicMin) || isNaN(finalHora) || isNaN(finalMin) ||
             inicHora < 0 || inicHora > 23 || finalHora < 0 || finalHora > 23 ||
             inicMin < 0 || inicMin > 59 || finalMin < 0 || finalMin > 59) {
